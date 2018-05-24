@@ -1,7 +1,7 @@
 const technosDiv = document.querySelector('#technos');
-
+const urlData = "https://nodetestapi-thyrrtzgdz.now.sh/technos";
 function loadTechnologies(technos) {
-    fetch('http://localhost:3001/technos')
+    fetch('https://nodetestapi-thyrrtzgdz.now.sh/technos')
         .then(response => {
             response.json()
                 .then(technos => {

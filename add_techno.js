@@ -12,7 +12,7 @@ addTechnoForm.addEventListener('submit', evt => {
         url: technoUrlField.value
     }
 
-    fetch('http://localhost:3001/technos', { 
+    fetch('https://nodetestapi-thyrrtzgdz.now.sh/technos', { 
             method: 'POST', 
             headers: {
                 'Content-Type': 'application/json'
